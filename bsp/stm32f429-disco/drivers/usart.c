@@ -23,15 +23,15 @@
 #include <rtdevice.h>
 
 #ifdef RT_USING_UART1
-#define USART1_RX_GPIO_CLK_ENABLE()      __HAL_RCC_GPIOA_CLK_ENABLE()
-#define USART1_TX_GPIO_CLK_ENABLE()      __HAL_RCC_GPIOA_CLK_ENABLE()
+#define USART1_RX_GPIO_CLK_ENABLE()      __HAL_RCC_GPIOB_CLK_ENABLE()
+#define USART1_TX_GPIO_CLK_ENABLE()      __HAL_RCC_GPIOB_CLK_ENABLE()
 
 /* Definition for USART1 Pins */
-#define USART1_TX_PIN                    GPIO_PIN_9
-#define USART1_TX_GPIO_PORT              GPIOA
+#define USART1_TX_PIN                    GPIO_PIN_6
+#define USART1_TX_GPIO_PORT              GPIOB
 #define USART1_TX_AF                     GPIO_AF7_USART1
-#define USART1_RX_PIN                    GPIO_PIN_10
-#define USART1_RX_GPIO_PORT              GPIOA
+#define USART1_RX_PIN                    GPIO_PIN_7
+#define USART1_RX_GPIO_PORT              GPIOB
 #define USART1_RX_AF                     GPIO_AF7_USART1
 #endif
 

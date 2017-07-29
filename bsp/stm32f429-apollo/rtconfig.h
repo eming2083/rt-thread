@@ -68,7 +68,7 @@
 
 /* SECTION: RTGUI support */
 /* using RTGUI support */
-#define RT_USING_GUIENGINE
+//#define RT_USING_GUIENGINE
 
 /* name length of RTGUI object */
 #define RTGUI_NAME_MAX		16
@@ -94,8 +94,8 @@
 #define RT_USING_SERIAL
 
 #define RT_USING_UART1
-#define RT_USING_UART2
-#define RT_USING_UART3
+//#define RT_USING_UART2
+//#define RT_USING_UART3
 
 /* Using GPIO pin framework */
 //#define RT_USING_PIN
@@ -162,7 +162,7 @@
 
 
 /* DFS: UFFS nand file system options */
-#define RT_USING_DFS_UFFS
+//#define RT_USING_DFS_UFFS
 /* configuration for uffs, more to see dfs_uffs.h and uffs_config.h */
 #define RT_CONFIG_UFFS_ECC_MODE    UFFS_ECC_HW_AUTO
                                  //UFFS_ECC_SOFT

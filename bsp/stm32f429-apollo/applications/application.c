@@ -84,7 +84,7 @@ void rt_init_thread_entry(void* parameter)
         }
             
         /* mount sd card fat partition 0 as root directory */
-        if (dfs_mount("W25Q256", "/spi", "elm", 0, 0) == 0)
+        if (dfs_mount("W25Q128", "/spi", "elm", 0, 0) == 0)
         {
             rt_kprintf("spi flash mount to /spi !\n");
         }

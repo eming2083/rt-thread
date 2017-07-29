@@ -68,8 +68,8 @@
 #define RT_USING_SERIAL
 
 #define RT_USING_UART1
-#define RT_USING_UART2
-#define RT_USING_UART3
+//#define RT_USING_UART2
+//#define RT_USING_UART3
 
 /* Using GPIO pin framework */
 //#define RT_USING_PIN
